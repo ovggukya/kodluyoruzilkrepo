@@ -1,0 +1,63 @@
+li {
+    float: left;
+
+
+}
+
+ul {
+    list-style-type: none;
+    /* liste başındaki noktalama işaretini sildi*/
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    padding: 30px;
+    /* sekmeler arası boşluk belrledim*/
+    color: rgb(241, 64, 147);
+    text-decoration: none
+}
+
+h1 {
+    color: rgb(66, 16, 30);
+    text-align: center;
+    font-size: 25px;
+    font-family: Copperplate, Papyrus, fantasy;
+    margin-top: 100px
+    ;
+}
+
+p {
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    margin-top: 70px;
+    text-align: center;
+
+
+}
+
+nav {
+
+    display: flex;
+    /*flex özelliğe sahip bir kutu içerisinde öğeler uyugn bir şekilde boyutlandırılarak esnek kapsayıcı içerisinde sıralanır */
+    justify-content: center;
+    /*CSS özelliği esnek kutu içerisindeki öğeleri ana-eksen yönünde ortalayacaktır.*/
+    align-items: center;
+    margin-bottom: 70px;
+    /* ana başlığı üst geçiş sekmelerinden aşağıda tutma miktarı */
+    margin-top: 15px;
+    /* üst geçiş sekmelerini sayfanın en başına olan mesafesi*/
+}
+
+
+
+div {
+    font-size: 20px;
+    color: rgb(117, 114, 115);
+    font-family: Copperplate, Papyrus, fantasy;
+    text-align: center;
+    /* resimler ve yazıları ortalandı*/
+
+
+}
